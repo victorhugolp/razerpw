@@ -39,41 +39,6 @@ img{
 
 
 
-#gradiente{
-    z-index: -1;
-    background-color: rgba(0,0,0,.4);
-    background-image: linear-gradient(
-        to top,rgba(0,0,0,.8) 0,
-        rgba(0,0,0,0) 40%,
-        rgba(0,0,0,0) 75%,
-        rgba(0,0,0,.8) 100%
-        );
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-#Ir{
-    align-items: center;
-    text-align: center;
-    font-size: 1em;
-    background-color: #e50914;;
-    position: absolute;
-    top: 100px;
-    right: 25px;;
-    width: 50px;
-    height: 50px;
-    border-radius: 80%;
-    border: 4px solid white;
-    color:white ;
-    font-family: "PT Mono", monospace;
-    cursor: pointer;
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
-}
-
-
 
 
 
@@ -155,21 +120,7 @@ select{
     font-family: sans-serif;
 }
 
-.img-tv{
-    position: relative;
 
-}
-.img-tv img{    
-    position: relative;
-    z-index: 1;
-}
-
-.video-tv{
-    width: 400px;
-    position: absolute;
-    top: 80px;
-    left: 70px;
-}
 
 /************* Botoes **************/
 
@@ -177,8 +128,8 @@ select{
     display: flex;   
     padding:  8px 10px;
     font-size: 18px;
-    color: rgb(255, 250, 250);
-    background: #1dfa00;
+    color: rgb(0, 0, 0);
+    background: #1cf100;
     float: right;
     border-radius: 3px;
 }
@@ -201,7 +152,7 @@ select{
     padding:  8px 10px;
     font-size: 18px;
     color: #fff;
-    background: #e50914;
+    background: #00ff0d;
     float: right;    
     border-radius: 1px;
 }
@@ -251,6 +202,7 @@ select{
     font-weight: normal;
     justify-items: center;   
 }
+
 
 .login{
 margin: 0 auto;
@@ -306,8 +258,8 @@ padding: 30px 70px 143px 70px;
     width: 100%;
     padding: 13px;
     border-radius: 5px;
-    background-color: rgb(51, 255, 0);
-    color:white;
+    background-color: rgb(41, 248, 0);
+    color:rgba(0, 0, 0, 0.973);
     border:none;
     font-weight: bold;
     font-size: 1.05rem;
@@ -455,87 +407,3 @@ padding: 30px 70px 143px 70px;
 
 
 
-
-
-/************* Codigo Responsivo **************/
-
-@media only screen and (max-width:360px) { 
-
-   .botao-lingua{  
-        height: 15%;   
-        width: 39%;
-    }
-
-    .botao{
-        height: 15%;
-        width: 24%;
-        right: 10px ;        
-        text-align: center;
-    }
-    
-    .logo img{
-        max-width: 80px;
-    }
-
-    .mid{
-        width: 100%;
-    }
-
-    .mid-container{
-        max-width: 100%;
-        float: none;
-    }
-
-    .mid-cont-interno{    
-        /*display: none;*/   
-        margin: 0;         
-        width: 90%;
-        height: auto;
-        font-size: 5vw;
-        margin-right: 100px;  
-    }
-
-    .mid-cont{    
-        /*display: none;*/ 
-        margin-left: 125px;           
-        width: 50%;
-        float: none;  
-     }
-
-    .assinatura input[type = "email"]{        
-        width: 100%;
-        float: none;
-        
-    }
-
-    #vamosLa{
-        width: 100%;
-        float: none;
-        padding: 15px 5px;
-    }
-
-    .img-tv{
-        max-width: 100%;
-        height: auto;
-        float: none;
-    }
-
-    .video-tv{
-        display: none;    
-   
-    }
-
-    .section{
-        width: 100%;      
-
-    }
-
-    .section h2{
-        left: 5px;
-    }
-
-    .grid{
-        font-size: 5vw;
-    }
-
-}

@@ -120,10 +120,10 @@ select{
     
 }
 .midh{  
-    background: url("../img/fundo.jpg") 0 0 no-repeat ;    
+      
     background-position: center;  
     background-size: cover;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(17, 16, 16, 0);
     padding: 25px 0;
     height: 75vh;    
     z-index: 1;

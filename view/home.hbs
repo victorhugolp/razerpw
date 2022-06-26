@@ -23,8 +23,8 @@
           <img id="logo" src="./img/logo.png">
         </span>
 
-        <a href="/login" class="botaum" id="entrarButton">Entrar</a>  
-        <a href="/post" class="botaum"id="postButton">Post</a>  
+        <button class="botaum" id="entrarButton">Sair</button>     
+        <button class="botaum" id="postButton">post</button> 
         <button class="botaum" id="sairButton">Sair</button>  
         
       </div>
@@ -57,6 +57,41 @@
         </div>
       </div>
     </section>
+
+
+    <!--   modal    -->
+    <div id="modal-entrar" class="modal-container">
+      <div class="modal">
+        <div class="sel-modal">
+          <div class="texto-modal">
+            <p>SELECIONE UMA OPÇÃO</p>
+          </div>
+          <button class="fechar">x</button>
+          <div class="botao-modal">
+            
+            <a href="/login" class="botaum" id="entrarButton">Entrar</a> 
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="modal-post" class="modal-container">
+      <div class="modal">
+        <div class="sel-modal">
+          <div class="texto-modal">
+            <p>SELECIONE UMA OPÇÃO</p>
+          </div>
+          <button class="fechar">x</button>
+          <div class="botao-modal">
+            
+            <a href="/post" class="botaum"id="postButton">Post</a> 
+            
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="../controller/login.js"></script>
 </body>

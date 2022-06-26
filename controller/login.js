@@ -9,7 +9,7 @@ function isLogado(){
    if(token === "QpwL5tke4Pnpja7X4"){
       console.log("Você já está logado!")
       document.getElementById("loginButton").style.display = "none";     
-      document.getElementById("sairButton").style.display = "display";
+      document.getElementById("postButton").style.display = "display";
       buttonEntrar.style.display = "none";
       return true;
    
